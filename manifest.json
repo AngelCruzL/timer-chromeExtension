@@ -15,6 +15,6 @@
       "32": "icon.png"
     },
     "default_title": "Timer Extension Title",
-    "default_popup": "./pages/popup.html"
+    "default_popup": "./popup/index.html"
   }
 }
