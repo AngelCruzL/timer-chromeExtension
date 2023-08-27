@@ -16,5 +16,6 @@
     },
     "default_title": "Timer Extension Title",
     "default_popup": "./popup/index.html"
-  }
+  },
+  "options_page": "./options/index.html"
 }
