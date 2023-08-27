@@ -1,0 +1,8 @@
+body {
+  block-size: 25rem;
+  inline-size: 25rem;
+}
+
+h1 {
+  color: orangered;
+}
