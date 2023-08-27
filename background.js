@@ -10,5 +10,12 @@ chrome.alarms.onAlarm.addListener(alarm => {
     })
 
     chrome.action.setBadgeText({text: `${time + 1}`})
+
+    if (time % 600 === 0) {
+      this.registration.showNotification('Chrome Timer Extension', {
+        body: 'You have been using Chrome for 10 minutes',
+        icon: 'icon.png'
+      })
+    }
   })
 })
